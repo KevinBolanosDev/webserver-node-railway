@@ -37,11 +37,6 @@ app.get("/elements", (req, res) => {
   res.send("Home Page");
 }); */
 
-app.get("/hola", function (req, res) {
-  res.send("Segunda ruta hola Mundo");
-});
-
-
 //Cuando armo el path con "__dirname" debo colocar "/public"
 // app.get("*", function (req, res) {
 //   res.sendFile(__dirname + "/public/404.html");
